@@ -1,0 +1,185 @@
+/*
+Theme name:     ESTSB
+Theme URI:		https://github.com/azizmoubsit/Wordpress-modele-ESTSB
+Author URI:		https://github.com/azizmoubsit/Wordpress-modele-ESTSB
+Version:        1
+Author:          Aziz Moubsit - Ennassiri Oussama - Cherif Yahya
+*/
+
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    padding: 0 !important;
+}
+
+.logos{
+    padding: 10px !important;
+}
+
+.logos, .second-nav{
+    margin-top: 30px;
+}
+nav{
+    background: #57a8cc;
+}
+
+.first-navbar {
+    padding-top: 10px !important;
+}
+
+.first-navbar ul li{
+    border: 1px solid #FFF;
+    padding: 5px;
+    margin: 6px;
+    border-radius: 50%;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.first-navbar ul li i{
+    line-height: 14px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.first-navbar ul li:hover{
+    color: turquoise;
+    border-color: turquoise;
+}
+
+.second-nav{
+    padding: 7px 0 !important;
+}
+
+.nav-link{
+    color: #FFF !important;
+}
+
+.nav-item {
+    margin-right: 5px !important;
+    padding: 0 !important;
+}
+
+.carousel-container{
+    box-shadow: 0px 6px 8px #5f6e69;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.carousel-item img{
+    opacity: 0.6;
+    height: 530px;
+    margin: auto;
+}
+
+.carousel-caption{
+    background: rgba(6, 29, 21, 0.644);
+}
+
+.posts-font p{
+    font-size: larger;
+    font-weight: 600;
+}
+
+#breadcrumbs{
+    height: 60px;
+    background: #d6e7f7;
+    padding: 16px 40px;
+    color: #000000;
+    font-size: larger;
+}
+
+#breadcrumbs a{
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.actualites{
+    padding: 90px 43px !important;
+}
+
+.actualites h2{
+    margin-bottom: 80px;
+}
+
+.h2-border{
+    border-bottom: 4px solid #57a8cc;
+}
+
+.actualites .cards{
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.filieres{
+    padding: 30px 0;
+}
+
+.filieres h2{
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+.filieres .div-fil{
+    display: flex;
+}
+
+.filieres .div-fil div{
+    width: calc(100%/3);
+    text-align: center;
+}
+
+.filieres img{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.filieres .div-fil div:not(:last-of-type){
+    border-right: 1px solid black;
+}
+
+tr{
+    padding: 25px;
+}
+
+footer{
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+
+
+@media (max-width: 992px){
+    .filieres .div-fil{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .filieres .div-fil div{
+        width: 100%;
+        margin: 50px 0 !important;
+    }
+    
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
