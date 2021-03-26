@@ -2,7 +2,7 @@
 
 
 ## Screenshot
-![](./ScreenShot.jpg)
+![](./screenshot.jpg)
 
 
 ## Comment installer ?
